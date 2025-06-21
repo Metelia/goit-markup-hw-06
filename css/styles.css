@@ -74,8 +74,8 @@
     }
   }
   
-  /* =========HEADER==+============= */
-  .header {
+  /* ----------HEADER---------- */
+  .page-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
@@ -86,8 +86,8 @@
     align-items: center;
   }
   
-  .header-menu,
-  .header-menu-address {
+  .nav-list,
+  .contacts{
     display: none;
   }
   
@@ -95,8 +95,6 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-  
-    /* line-height: 21px; */
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -126,19 +124,19 @@
       margin-right: 120px;
       padding: 24px 0;
     }
-    .header-menu,
-    .header-menu-address {
+    .nav-list,
+    .contacts {
       display: flex;
       align-items: center;
       gap: 40px;
     }
-    .header-menu-address {
+    .contacts {
       margin-left: auto;
     }
     .header-navigation {
       display: flex;
     }
-    .link-menu-item {
+    .nav-link {
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -148,11 +146,11 @@
       display: block;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .link-menu-item.current {
+    .nav-link.current {
       position: relative;
       color: #404bbf;
     }
-    .link-menu-item.current::after {
+    .nav-link.current::after {
       content: "";
       border-radius: 2px;
       width: 100%;
@@ -162,12 +160,12 @@
       left: 0;
       bottom: -1px;
     }
-    .header-menu-contacts {
+    .contacts-list {
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
-    .header-menu-contacts-item {
+    .contacts-link {
       font-weight: 400;
       font-size: 12px;
       line-height: 1.17;
@@ -176,10 +174,10 @@
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   
-    .header-menu-contacts-item:hover,
-    .header-menu-contacts-item:focus,
-    .link-menu-item:hover,
-    .link-menu-item:focus {
+    .contacts-link:hover,
+    .contacts-link:focus,
+    .nav-link:hover,
+    .nav-link:focus {
       color: #404bbf;
     }
   }
@@ -188,12 +186,12 @@
     .header-logo {
       margin-right: 76px;
     }
-    .header-menu-contacts {
+    .contacts-list {
       flex-direction: row;
       align-items: center;
       gap: 40px;
     }
-    .header-menu-contacts-item {
+    .contacts-link {
       padding: 24px 0;
       font-size: 16px;
       line-height: 1.5;
@@ -201,6 +199,11 @@
     }
   }
   
+  /* ----------mobile-menu---------- */
+
+
+
+
   .mobile-menu {
     position: fixed;
     top: 0;
