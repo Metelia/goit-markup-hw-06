@@ -41,7 +41,7 @@
           </li>
         </ul>
       </address>
-      <button class="burger-btn" type="button" data-menu-open>  <!----Кнопка на моб версии откр ---------- -->
+      <button class="burger-btn" type="button" data-menu-open> <!----Кнопка на моб версии откр ---------- -->
         <svg class="burger-icon" width="24" height="24">
           <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
         </svg>
@@ -122,10 +122,10 @@
       </div>
     </section>
 
-    <!-- <section class="main-section">
+    <!-- ----------------------users----------------------------------- -->
+    <section class="main-section">
       <div class="container main-list-container">
         <h2 class="visually-hidden">(2nd section)</h2>
-
         <ul class="main-list">
           <li class="main-list-detail">
             <div class="main-icons-block">
@@ -177,9 +177,9 @@
           </li>
         </ul>
       </div>
-    </section> -->
-
-    <!-- <section class="section-team">
+    </section>
+    <!-- ----------------------team----------------------------------- -->
+    <section class="section-team">
       <div class="container team-container">
         <h2 class="users-subtitle section-title">Our Team</h2>
         <ul class="users-list">
@@ -305,7 +305,6 @@
               </ul>
             </div>
           </li>
-
           <li class="user">
             <img srcset="./images/team/img.jpg 1x, ./images/team/img@2x.jpg 2x" src="./images/img_4.jpg"
               class="img-user-ui" alt="D_Wilson" width="264" height="260" />
@@ -347,9 +346,9 @@
           </li>
         </ul>
       </div>
-    </section> -->
-
-    <!-- <section class="portfolio-section">
+    </section>
+    <!-- ----------------------portfolio----------------------------------- -->
+    <section class="portfolio-section">
       <div class="container portfolio-container">
         <h2 class="section-title-portfolio section-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -549,10 +548,10 @@
         </ul>
       </div>
     </section>
-  </main> -->
+  </main>
 
-    <!-- ----------------------------FOOTER=------------------------>
-    <!-- <footer class="footer">
+  <!-- ----------------------------footer-------------------------->
+  <footer class="footer">
     <div class="container footer-container">
       <div class="footer-container-text">
         <a class="header-logo footer-logo" href="./index.html">Web<span class="footer-accent">Studio</span></a>
@@ -609,76 +608,76 @@
         </form>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
-    <!-- ==============MODAL===================== -->
+  <!---------------------------------modal---------------------->
 
-    <div class="backdrop" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-close" data-modal-close>
-          <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <p class="modal-title">Leave your contacts and we will call you back</p>
+  <div class="backdrop" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close" data-modal-close>
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
 
-        <form class="modal-form">
-          <div class="modal-field">
-            <label for="user-name" class="modal-input-text">Name</label>
-            <div class="modal-input-cover">
-              <input type="text" class="modal-input modal-item" name="user-name" required id="user-name" />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-Vector"></use>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" class="modal-input-text">Name</label>
+          <div class="modal-input-cover">
+            <input type="text" class="modal-input modal-item" name="user-name" required id="user-name" />
+            <svg class="modal-input-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label for="user-phone" class="modal-input-text">Phone</label>
+          <div class="modal-input-cover">
+            <input type="tel" class="modal-input modal-item" name="user-phone" required id="user-phone" />
+            <svg class="modal-input-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-Vector1"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label for="user-email" class="modal-input-text">Email</label>
+          <div class="modal-input-cover">
+            <input type="email" class="modal-input modal-item" name="user-email" required id="user-email" />
+            <svg class="modal-input-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-Vector2"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-field modal-field-textarea">
+          <label for="user-comment" class="modal-input-text">Comment</label>
+          <textarea class="modal-textarea modal-item" name="user-comment" id="user-comment"
+            placeholder="Text input"></textarea>
+        </div>
+
+        <div class="check-accept">
+          <input type="checkbox" class="visually-hidden check-input" name="user-privacy" id="user-privacy"
+            value="true" />
+          <label for="user-privacy" class="check-option check-text">
+            <span class="check-custom">
+              <svg class="checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
               </svg>
-            </div>
-          </div>
-
-          <div class="modal-field">
-            <label for="user-phone" class="modal-input-text">Phone</label>
-            <div class="modal-input-cover">
-              <input type="tel" class="modal-input modal-item" name="user-phone" required id="user-phone" />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-Vector1"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="modal-field">
-            <label for="user-email" class="modal-input-text">Email</label>
-            <div class="modal-input-cover">
-              <input type="email" class="modal-input modal-item" name="user-email" required id="user-email" />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-Vector2"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-field modal-field-textarea">
-            <label for="user-comment" class="modal-input-text">Comment</label>
-            <textarea class="modal-textarea modal-item" name="user-comment" id="user-comment"
-              placeholder="Text input"></textarea>
-          </div>
-
-          <div class="check-accept">
-            <input type="checkbox" class="visually-hidden check-input" name="user-privacy" id="user-privacy"
-              value="true" />
-            <label for="user-privacy" class="check-option check-text">
-              <span class="check-custom">
-                <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              <span class="label-privacy-text">
-                I accept the terms and conditions of the&nbsp;
-                <a href="" class="check-link">Privacy Policy</a>
-              </span>
-            </label>
-          </div>
-          <button type="submit" class="btn modal-btn">SEND</button>
-        </form>
-      </div>
+            </span>
+            <span class="label-privacy-text">
+              I accept the terms and conditions of the&nbsp;
+              <a href="" class="check-link">Privacy Policy</a>
+            </span>
+          </label>
+        </div>
+        <button type="submit" class="btn modal-btn">SEND</button>
+      </form>
     </div>
-    <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+  </div>
+  <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>
